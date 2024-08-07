@@ -1,0 +1,22 @@
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(250deg, #7b2ff7, #f107a3);
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  height: 100vh;
+  width: 70vw;
+}
